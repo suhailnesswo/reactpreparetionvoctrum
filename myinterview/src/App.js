@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import First from './Compoundfirst';
 import './App.css';
 import UseSecondCompoundState from './secondcompoundusestate';
+import UseThirdCompoundUseEffect from './Thirdcompounduseffect';
+import Useeffectpresimple from './Useeffectpresimple';
 
 
 function App() {
@@ -16,6 +18,10 @@ function App() {
          <UseSecondCompoundState></UseSecondCompoundState>
          
         </p>
+        <UseThirdCompoundUseEffect></UseThirdCompoundUseEffect>
+<Useeffectpresimple></Useeffectpresimple>
+
+        {/* <Thirdcompounduseffect></Thirdcompounduseffect> */}
         <a
           className="App-link"
           href="https://reactjs.org"
